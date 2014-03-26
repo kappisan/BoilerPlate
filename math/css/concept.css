@@ -1,0 +1,56 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  height: 500px;
+  position: relative;
+  background-image:url("../notepad_page.png");
+  background-size: 100%;
+}
+
+form {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+path {
+position: absolute;
+top: 1em;
+  fill-rule: evenodd;
+  stroke: #333;
+  stroke-width: 2px;
+}
+
+.sun path {
+position: relative;
+  fill: #FF2106;
+}
+
+.planet path {
+position: relative;
+  fill: #0523FE;
+}
+
+.annulus path {
+position: relative;
+  fill: #12FA04;
+}
+
+.header {
+position: relative;
+	left: -100px;
+	background-color: #000000;
+	height: 210px;
+	width: 3400px;
+}
+
+.bigwillypic {
+	position: absolute;
+	left; 100px;
+}
+
+.cogs {
+	position: absolute;
+	left; 400px;
+}

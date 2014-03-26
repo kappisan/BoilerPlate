@@ -34,12 +34,13 @@ position: relative;
 
 .annulus path {
 position: relative;
-  fill: #12FA04;
+  fill: #252525;
 }
 
 .header {
 position: relative;
 	left: -100px;
+	top: -20px;
 	background-color: #000000;
 	height: 210px;
 	width: 3400px;
@@ -47,10 +48,41 @@ position: relative;
 
 .bigwillypic {
 	position: absolute;
-	left; 100px;
+	left: 900px;
+}
+
+
+.bigwillyexplosion {
+	position: absolute;
+	left: 1600px;
+	top: 700px;
+}
+
+.bigwillyconcepttitle {
+	position: absolute;
+	left: 1000px;
+	top: 400px;
+	font-size: 92px;
 }
 
 .cogs {
 	position: absolute;
-	left; 400px;
+	left: 400px;
+}
+
+.paragraphone {
+  	position: absolute;
+	left: 380px;
+	top: 1000px;
+	font-size: 62px;
+	color: #FF1212;
+}
+
+
+.paragraphtwo {
+  	position: absolute;
+	left: 1000px;
+	top: 770px;
+	font-size: 62px;
+	color: #12FF12;
 }
